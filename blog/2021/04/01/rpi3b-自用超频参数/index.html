@@ -5,12 +5,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>hexo安装记录 - Blog</title>
+    <title>rpi3b+自用超频参数 - Blog</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
     <meta name="keywords" content="blog LTHPKBTE,"> 
-    <meta name="description" content="HEXO安装记录（测试文章）balabalaDY$$\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}\mathbf{i} &amp;amp; \math,"> 
+    <meta name="description" content="##树梅派自用超频参数树梅派本身性能不怎么好，为了尽量在使(摸)用(鱼)的时候使用的更舒服，自己试着超频了一下，这是我能试到的最高的超频参数：
+[all]
+gpu_mem=128
+arm_64bit,"> 
     <meta name="author" content="Java8ver64"> 
     <link rel="alternative" href="atom.xml" title="Blog" type="application/atom+xml"> 
     <link rel="icon" href="/blog/img/favicon.png"> 
@@ -60,7 +63,7 @@
     <div class="navigation animated fadeIn fast delay-1s">
         <img id="home-icon" class="icon-home" src="/blog/img/favicon.png" alt="" data-url="https://ltmc.club/blog">
         <div id="play-icon" title="Play/Pause" class="iconfont icon-play"></div>
-        <h3 class="subtitle">hexo安装记录</h3>
+        <h3 class="subtitle">rpi3b+自用超频参数</h3>
         <div class="social">
             <!--        <div class="like-icon">-->
             <!--            <a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
@@ -94,14 +97,14 @@
                 
                 四月 01, 2021
             </p>
-            <h3 class="post-title animated fadeInDown"><a href="/blog/2021/04/01/hexo%E5%AE%89%E8%A3%85%E8%AE%B0%E5%BD%95/" title="hexo安装记录" class="">hexo安装记录</a>
+            <h3 class="post-title animated fadeInDown"><a href="/blog/2021/04/01/rpi3b-%E8%87%AA%E7%94%A8%E8%B6%85%E9%A2%91%E5%8F%82%E6%95%B0/" title="rpi3b+自用超频参数" class="">rpi3b+自用超频参数</a>
             </h3>
             
             <p class="post-count animated fadeInDown">
                 
                 <span>
                     <b class="iconfont icon-text2"></b> <i>文章字数</i>
-                    1k
+                    367
                 </span>
                 
                 
@@ -111,7 +114,7 @@
                 </span>
                 
                 
-                <span id="/2021/04/01/hexo安装记录/" class="leancloud_visitors" data-flag-title="hexo安装记录">
+                <span id="/2021/04/01/rpi3b-自用超频参数/" class="leancloud_visitors" data-flag-title="rpi3b+自用超频参数">
                     <b class="iconfont icon-read"></b> <i>阅读次数</i>
                     <span class="leancloud-visitors-count">1000000</span>
                 </span>
@@ -120,7 +123,7 @@
             </p>
             
             
-            <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/blog/tags/hexo/" rel="tag">hexo</a></li></ul>
+            <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/blog/tags/rpi-%E6%A0%91%E6%A2%85%E6%B4%BE/" rel="tag">rpi - 树梅派</a></li></ul>
             
         </div>
     </div>
@@ -141,41 +144,21 @@
 <div class="article">
     <div class='main'>
         <div class="content markdown animated fadeIn">
-            <h2 id="HEXO安装记录（测试文章）"><a href="#HEXO安装记录（测试文章）" class="headerlink" title="HEXO安装记录（测试文章）"></a>HEXO安装记录（测试文章）</h2><p>balabala<br><strong>DY</strong><br>$$<br>\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}<br>\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \<br>\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \<br>\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \<br>\end{vmatrix}<br>${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}<br>$$</p>
-<pre><code>hexo-cli: 4.2.0
-os: Linux 5.4.83-v7+ linux arm
-node: 15.12.0
-v8: 8.6.395.17-node.27
-uv: 1.41.0
-zlib: 1.2.11
-brotli: 1.0.9
-ares: 1.17.1
-modules: 88
-nghttp2: 1.42.0
-napi: 8
-llhttp: 2.1.3
-openssl: 1.1.1j+quic
-cldr: 38.1
-icu: 68.2
-tz: 2020d
-unicode: 13.0
+            <p>##树梅派自用超频参数<br>树梅派本身性能不怎么好，为了尽量在使(<strong>摸</strong>)用(<strong>鱼</strong>)的时候使用的更舒服，自己试着超频了一下，这是我能试到的最高的超频参数：</p>
+<pre><code>[all]
+gpu_mem=128
+arm_64bit=0
+arm_freq=1500
+over_voltage=6
+core_freq=550
+gpu_freq=550
+sdram_freq=550
+sdram_schmoo=0x02000020
+over_voltage_sdram_p=6
+over_voltage_sdram_i=4
+over_voltage_sdram_c=4
 </code></pre>
-<p><img src="https://static.runoob.com/images/favicon.ico" alt="runoob&#39;s favicon"></p>
-<p><a href="ltmc.club/blog">blog</a></p>
-<ol>
-<li>test</li>
-</ol>
-<ul>
-<li>test1</li>
-<li>test2</li>
-</ul>
-<ol start="2">
-<li>log</li>
-</ol>
-<ul>
-<li>log1</li>
-<li>log2</li>
-</ul>
+<p>加到/boot/config.txt就能使用。</p>
 
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls"
@@ -195,10 +178,9 @@ unicode: 13.0
             <div class="post-nav">
                 <hr>
                 
-                    <div class="post-nav-item">上一篇:<a href="/blog/2021/04/01/obsidian%E4%B8%8D%E6%94%AF%E6%8C%81%E4%BA%AE%E8%89%B2%E5%9B%BE%E7%89%87logo/" rel="prev" 
-                        title="obsidian不支持亮色图片logo">obsidian不支持亮色图片logo
-                      </a></div>
                 
+                    <div class="post-nav-item">下一篇:<a href="/blog/2021/04/01/obsidian%E4%B8%8D%E6%94%AF%E6%8C%81%E4%BA%AE%E8%89%B2%E5%9B%BE%E7%89%87logo/" rel="next" 
+                        title="obsidian不支持亮色图片logo">obsidian不支持亮色图片logo</a></div>
                                 
             </div>   
                         
@@ -226,13 +208,6 @@ unicode: 13.0
             </div>
             
             
-            
-            <div class="box sticky animated fadeInRight faster">
-                <div id="toc" class="subbox">
-                    <h4>目录</h4>
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#HEXO%E5%AE%89%E8%A3%85%E8%AE%B0%E5%BD%95%EF%BC%88%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0%EF%BC%89"><span class="toc-number">1.</span> <span class="toc-text">HEXO安装记录（测试文章）</span></a></li></ol>
-                </div>
-            </div>
             
             
         </div>

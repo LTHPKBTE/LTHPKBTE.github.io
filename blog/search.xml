@@ -4,11 +4,49 @@
   
     
     <entry>
+      <title>rpi3b+自用超频参数</title>
+      <link href="/blog/2021/04/01/rpi3b-%E8%87%AA%E7%94%A8%E8%B6%85%E9%A2%91%E5%8F%82%E6%95%B0/"/>
+      <url>/blog/2021/04/01/rpi3b-%E8%87%AA%E7%94%A8%E8%B6%85%E9%A2%91%E5%8F%82%E6%95%B0/</url>
+      
+        <content type="html"><![CDATA[<p>##树梅派自用超频参数<br>树梅派本身性能不怎么好，为了尽量在使(<strong>摸</strong>)用(<strong>鱼</strong>)的时候使用的更舒服，自己试着超频了一下，这是我能试到的最高的超频参数：</p><pre><code>[all]gpu_mem=128arm_64bit=0arm_freq=1500over_voltage=6core_freq=550gpu_freq=550sdram_freq=550sdram_schmoo=0x02000020over_voltage_sdram_p=6over_voltage_sdram_i=4over_voltage_sdram_c=4</code></pre><p>加到/boot/config.txt就能使用。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> rpi - 树梅派 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>obsidian不支持亮色图片logo</title>
+      <link href="/blog/2021/04/01/obsidian%E4%B8%8D%E6%94%AF%E6%8C%81%E4%BA%AE%E8%89%B2%E5%9B%BE%E7%89%87logo/"/>
+      <url>/blog/2021/04/01/obsidian%E4%B8%8D%E6%94%AF%E6%8C%81%E4%BA%AE%E8%89%B2%E5%9B%BE%E7%89%87logo/</url>
+      
+        <content type="html"><![CDATA[<p>记录：obsidian会把主logo图片有东西的地方显示为纯白色。图片为png格式。<br>小图logo不被影响。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo - obsidian </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo安装记录</title>
       <link href="/blog/2021/04/01/hexo%E5%AE%89%E8%A3%85%E8%AE%B0%E5%BD%95/"/>
       <url>/blog/2021/04/01/hexo%E5%AE%89%E8%A3%85%E8%AE%B0%E5%BD%95/</url>
       
-        <content type="html"><![CDATA[<h2 id="HEXO安装记录（测试文章）"><a href="#HEXO安装记录（测试文章）" class="headerlink" title="HEXO安装记录（测试文章）"></a>HEXO安装记录（测试文章）</h2><p>balabala<br><strong>DY</strong><br>$$<br>\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}<br>\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \<br>\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \<br>\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \<br>\end{vmatrix}<br>${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}<br>$$</p><pre><code>hexo-cli: 4.2.0os: Linux 5.4.83-v7+ linux armnode: 15.12.0v8: 8.6.395.17-node.27uv: 1.41.0zlib: 1.2.11brotli: 1.0.9ares: 1.17.1modules: 88nghttp2: 1.42.0napi: 8llhttp: 2.1.3openssl: 1.1.1j+quiccldr: 38.1icu: 68.2tz: 2020dunicode: 13.0</code></pre><p><img src="https://static.runoob.com/images/favicon.ico" alt="图片加载中"><br><a href="ltmc.club/blog">blog</a></p><ol><li>test</li></ol><ul><li>test1</li><li>test2</li></ul><ol start="2"><li>log</li></ol><ul><li>log1</li><li>log2</li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="HEXO安装记录（测试文章）"><a href="#HEXO安装记录（测试文章）" class="headerlink" title="HEXO安装记录（测试文章）"></a>HEXO安装记录（测试文章）</h2><p>balabala<br><strong>DY</strong><br>$$<br>\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}<br>\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \<br>\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \<br>\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \<br>\end{vmatrix}<br>${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}<br>$$</p><pre><code>hexo-cli: 4.2.0os: Linux 5.4.83-v7+ linux armnode: 15.12.0v8: 8.6.395.17-node.27uv: 1.41.0zlib: 1.2.11brotli: 1.0.9ares: 1.17.1modules: 88nghttp2: 1.42.0napi: 8llhttp: 2.1.3openssl: 1.1.1j+quiccldr: 38.1icu: 68.2tz: 2020dunicode: 13.0</code></pre><p><img src="https://static.runoob.com/images/favicon.ico" alt="runoob&#39;s favicon"></p><p><a href="ltmc.club/blog">blog</a></p><ol><li>test</li></ol><ul><li>test1</li><li>test2</li></ul><ol start="2"><li>log</li></ol><ul><li>log1</li><li>log2</li></ul>]]></content>
       
       
       
