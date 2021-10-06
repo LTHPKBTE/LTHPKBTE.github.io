@@ -13,18 +13,17 @@
      try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
      catch(e){window.attachEvent("onload", $buo_f)}
    </script>
+   <script src="https://web.sdk.qcloud.com/player/tcplayerlite/release/v2.4.1/TcPlayer-2.4.1.js" charset="utf-8"></script>;
   </head>
   <body>
-        <script type="text/javascript" src="https://ltmc.club/ckplayer/ckplayer.js" charset="utf-8" data-name="ckplayer"></script>
-          <div class="video" style="width: 600px;height: 400px;"></div>
-          <script type="text/javascript">
-            var videoObject = {
-             	container: '.video', 
-             	variable: 'player', 
-            	video: 'https://ltmc.club/test/playlist.m3u8'
-            };
-            var player = new ckplayer(videoObject);
-        </script>
+    <div id="video" style="width:100%; height:auto;"></div>
+    var player = new TcPlayer('video', {
+      "m3u8": "https://ltmc.club/test/playlist.m3u8", 
+      "autoplay" : false,  
+      "poster" : "",
+      "width" :  '1920',
+      "height" : '1080'
+      });
     <p>以上应该有一个视频播放器。</p>
   </body>
 </html>
